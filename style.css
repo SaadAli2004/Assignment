@@ -1,0 +1,334 @@
+
+*{
+    margin: 0;padding: 0;
+}
+.bgimg{
+   background-image: url(Assets/premium_photo-1682430583832-6dc79f5ba464.jpg);
+   background-size: cover;
+   height: 500px
+}
+.container{
+    /* background-color: aqua; */
+   display: flex;
+   position: absolute;
+   width: 85%;
+   left: 8%;
+   /* border: 2px solid black; */
+}
+
+:root{
+
+    --nav-color: #5e6969; 
+    --nav-text: #ffffff;
+    --hover-color: #32a0a8;
+    --span-color: #1cc8d4;
+    --text-color: #19c880;
+
+}
+.container2{
+    position: relative;
+    width: 100%;
+    background-color: var(--nav-color);
+    opacity: 50%;
+
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%; */
+    padding: 40px 10% 2% 10%;
+    
+}
+.logo{
+    color: var(--nav-text);
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+}
+span{
+    font-family: "Poppins", sans-serif;
+    color: var(--span-color)
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--nav-text);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: var(--hover-color);
+    transition: .3s;
+}
+.button{
+    border: none;
+    background: #1cc8d4;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.container{
+    padding-top: 8rem;
+    height: inherit;
+    box-sizing: border-box;
+}
+h4{
+    color: var(--text-color);
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    padding: 10px;
+}
+
+.container3{
+    /* background-color: rgb(83, 15, 160); */
+   display: flex;
+   position: relative;
+   top: 30% ;
+   height: 58px;
+   width: 30%;
+   left: 9%;
+   /* border: 2px solid black; */
+}
+.container4{
+    /* background-color: rgb(160, 120, 206); */
+   display: flex;
+   position: relative;
+   top: 100% ;
+}
+.container5{
+    /* background-color: rgb(160, 120, 206); */
+   display: flex;
+   position: relative;
+   top: 100%;
+   left: 70.5%;
+}
+h2, h2 > span{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    position: absolute;
+}
+.line{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    top: 56%;
+    left: 1.5%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom: #5e6969;
+    border-right: #5e6969;
+    width: 420px;
+    height: 400px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.content1{
+    font-family: "Poppins";
+    padding: 30px;
+}
+.icon-box .icon{
+    font-size: 42px;
+    color: #19c880;
+}
+.icon-box{
+    display: flex;
+    position: absolute;
+    width: 30px;
+}
+h3{
+    padding: 10px;
+    font-size: 25px;
+}
+p{
+    padding: 10px;
+    font-size: 20px; 
+}
+
+i{
+    padding: 20px;
+    font-size: 50px;
+}
+.content2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(163, 70, 70);
+    width: 100%;
+    height: 55vh;
+  }
+  .courses-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .viewAll {
+    border: 2px, solid, #34d986;
+    background-color: #ffffff;
+    width: 150px;
+    height: 50px;
+    font-family: "Poppins";
+  }
+  
+  h1 {
+    font-family: "Poppins";
+  }
+  .p {
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    color: black;
+    font-family: "Poppins";
+  }
+  .viewAll:hover {
+    background-color: #34d986;
+    transform: none;
+    transition: 0.2s;
+    transition-timing-function: linear;
+  }
+  .p:hover {
+    color: #ffffff;
+    transition: 0.2s;
+    transition-timing-function: linear;
+  }
+  .courses {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    max-width: 100%;
+  }
+  .courses h1 {
+    font-size: 30px;
+    padding-right: 400px;
+  }
+  .cards2 {
+    /* border: 2px solid black; */
+    width: 267px;
+    height: 200px;
+  }
+  .cards2 img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .cards3 {
+    background-color: #ffffff;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    width: 267px;
+    height: 200px;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .card-group1 {
+    display: flex;
+  }
+  .star span,
+  .Rate span {
+    color: #f3a90b;
+  }
+  .unchecked span {
+    color: lightgray;
+  }
+  .ratings {
+    display: flex;
+    padding: 15px;
+  }
+  .title1 a {
+    display: block;
+    padding-left: 10px;
+    font-family: "Poppins";
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  .title1 a:hover {
+    text-decoration: underline solid black;
+  }
+  .tutor {
+    padding: 10px;
+    font-weight: 600;
+  }
+  .Lara {
+    color: #19c880;
+  }
+  .Date {
+    color: grey;
+  }
+  .Rate span {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .card-group2 {
+    display: flex;
+  }
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    width: 100%;
+    height: 500px;
+}
+.section{
+    border: 2px solid black;
+    width: 800px;
+    height: 450px;
+}
+.stuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 50%;
+    height: inherit;
+    
+}
+.detail1{
+    display: flex;
+    border: 2px solid black;
+    width: 90%;
+    height: 50%;
+
+}
+.detail1 > h2{
+    color: black;
+    font-size: 60px;
+}
+.detail2{
+    display: flex;
+    border: 2px solid black;
+    width: 90%;
+    height: 50%;
+
+}  
